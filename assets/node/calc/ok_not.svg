@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="136px" height="42px" viewBox="0 0 136 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>ok_not</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ok_not" transform="translate(1.000000, 1.000000)">
+            <polygon id="Shape" stroke="#E1A78C" fill="#FBBA9D" fill-rule="nonzero" points="12 0 20 0 122 0 134 20 122 40 12 40 12 40 0 20.5 12 1"></polygon>
+            <g id="Group" transform="translate(12.000000, 7.500000)" fill="#000000" fill-opacity="0.12" fill-rule="nonzero">
+                <polygon id="Shape" points="12 0 42 0 54 12.5 42 25 12 25 12 25 0 13 12 1"></polygon>
+            </g>
+            <text id="不成立" fill="#FFFFFF" font-family="PingFangSC-Regular, PingFang SC" font-size="15" font-weight="normal">
+                <tspan x="74" y="25">不成立</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

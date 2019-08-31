@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="214px" height="52px" viewBox="0 0 214 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>a_is_None</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="a_is_None" transform="translate(1.000000, 1.000000)">
+            <polygon id="Shape" stroke="#E1A78C" fill="#FBBA9D" fill-rule="nonzero" points="12 0 20 0 200.149475 0 212.149475 25 200.149475 50 12 50 12 50 0 25.5 12 1"></polygon>
+            <g id="Group" transform="translate(12.000000, 5.000000)">
+                <path d="M12,0 L20,0 L47.2587433,0 C53.8861603,6.76353751e-16 59.2587433,8.954305 59.2587433,20 C59.2587433,31.045695 53.8861603,40 47.2587433,40 L12,40 C5.372583,40 1.77635684e-15,31.045695 0,20 C0,8.954305 5.372583,2.02906125e-15 12,0 Z" id="Shape" stroke="#FFFFFF" fill="#FFC063" fill-rule="nonzero"></path>
+                <g transform="translate(18.000000, 10.500000)" fill="#FFFFFF" font-family="Helvetica" font-size="13" font-weight="normal" id="a">
+                    <text>
+                        <tspan x="0" y="13.6666667">a</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Group" transform="translate(129.925491, 5.000000)">
+                <path d="M12,0 L20,0 L50.2239838,0 C56.8514008,6.76353751e-16 62.2239838,8.954305 62.2239838,20 C62.2239838,31.045695 56.8514008,40 50.2239838,40 L12,40 C5.372583,40 1.77635684e-15,31.045695 0,20 C0,8.954305 5.372583,2.02906125e-15 12,0 Z" id="Shape" stroke="#FFFFFF" fill="#FFC063" fill-rule="nonzero"></path>
+                <text id="None" fill="#FFFFFF" font-family="Helvetica" font-size="15" font-weight="normal">
+                    <tspan x="12" y="24">None</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(85.258743, 13.500000)" fill="#FFFFFF" font-family="PingFangSC-Regular, PingFang SC" font-size="15" font-weight="normal">
+                <text id="是">
+                    <tspan x="0" y="16.5">是</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

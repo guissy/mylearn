@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="260px" height="42px" viewBox="0 0 260 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(1.000000, 1.000000)">
+            <path d="M12,0 L20,0 L246,0 C252.627417,6.76353751e-16 258,8.954305 258,20 C258,31.045695 252.627417,40 246,40 L12,40 C5.372583,40 1.77635684e-15,31.045695 0,20 C0,8.954305 5.372583,2.02906125e-15 12,0 Z" id="Shape" stroke="#5680D5" fill="#608FEE" fill-rule="nonzero"></path>
+            <g transform="translate(54.000000, 7.500000)">
+                <path d="M12,0 L92,0 C98.627417,4.22721094e-16 104,5.59644063 104,12.5 C104,19.4035594 98.627417,25 92,25 L12,25 C5.372583,25 1.77635684e-15,19.4035594 0,12.5 C0,5.59644063 5.372583,1.26816328e-15 12,0 Z" id="Shape" fill-opacity="0.12" fill="#000000" fill-rule="nonzero"></path>
+                <g transform="translate(12.000000, 1.500000)" fill="#FFFFFF" font-family="PingFangSC-Regular, PingFang SC" font-size="15" font-weight="normal" id="你的名字？">
+                    <text>
+                        <tspan x="0" y="16">你的名字？</tspan>
+                    </text>
+                </g>
+            </g>
+            <text id="询问" fill="#FFFFFF" font-family="PingFangSC-Regular, PingFang SC" font-size="15" font-weight="normal">
+                <tspan x="12" y="25">询问</tspan>
+            </text>
+            <text id="并获得输入" fill="#FFFFFF" font-family="PingFangSC-Regular, PingFang SC" font-size="15" font-weight="normal">
+                <tspan x="166" y="25">并获得输入</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

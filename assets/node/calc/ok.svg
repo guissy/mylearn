@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="83px" height="41px" viewBox="0 0 83 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>ok</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ok" transform="translate(1.000000, 1.000000)">
+            <polygon id="Shape" stroke="#E1A78C" fill="#FBBA9D" fill-rule="nonzero" points="12 0 68.666748 0 80.666748 19.5 68.666748 39 12 39 12 39 0 20 12 1"></polygon>
+            <g id="Group" transform="translate(18.000000, 8.000000)" fill="#FFFFFF" font-family="PingFangSC-Regular, PingFang SC" font-size="15" font-weight="normal">
+                <text id="成立">
+                    <tspan x="0" y="16.5">成立</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

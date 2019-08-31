@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="147px" height="42px" viewBox="0 0 147 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>function02</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="function02" transform="translate(1.000000, 1.000000)">
+            <path d="M0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 L16,0 L24,0 L128.895996,0 C137.732552,6.76353751e-16 144.895996,8.954305 144.895996,20 C144.895996,31.045695 137.732552,40 128.895996,40 L12,40 C5.372583,40 8.11624501e-16,34.627417 0,28 L0,2 Z" id="Shape" stroke="#D78058" fill="#F08F63" fill-rule="nonzero"></path>
+            <g id="Group" transform="translate(48.000000, 7.500000)">
+                <path d="M12,0 L20.8959961,0 C27.5234131,4.22721094e-16 32.8959961,5.59644063 32.8959961,12.5 C32.8959961,19.4035594 27.5234131,25 20.8959961,25 L12,25 C5.372583,25 1.77635684e-15,19.4035594 0,12.5 C0,5.59644063 5.372583,1.26816328e-15 12,0 Z" id="Shape" fill-opacity="0.12" fill="#000000" fill-rule="nonzero"></path>
+                <g transform="translate(12.000000, 1.500000)" fill="#FFFFFF" font-family="Helvetica" font-size="15" font-weight="normal" id="0">
+                    <text>
+                        <tspan x="0" y="15">0</tspan>
+                    </text>
+                </g>
+            </g>
+            <text id="返回" fill="#FFFFFF" font-family="PingFangSC-Regular, PingFang SC" font-size="15" font-weight="normal">
+                <tspan x="16" y="25">返回</tspan>
+            </text>
+            <g id="Group" transform="translate(92.895996, 10.000000)"></g>
+            <g id="Group" transform="translate(112.895996, 10.000000)"></g>
+        </g>
+    </g>
+</svg>

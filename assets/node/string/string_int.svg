@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="240px" height="42px" viewBox="0 0 240 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>string_int</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="string_int" transform="translate(1.000000, 1.000000)">
+            <path d="M12,0 L20,0 L225.562744,0 C232.190161,6.76353751e-16 237.562744,8.954305 237.562744,20 C237.562744,31.045695 232.190161,40 225.562744,40 L12,40 C5.372583,40 1.77635684e-15,31.045695 0,20 C0,8.954305 5.372583,2.02906125e-15 12,0 Z" id="Shape" stroke="#4BAF2C" fill="#6BCD47" fill-rule="nonzero"></path>
+            <g id="Group" transform="translate(38.000000, 5.500000)">
+                <path d="M12,2 L20.8959961,2 C27.5234131,2 32.8959961,7.59644063 32.8959961,14.5 C32.8959961,21.4035594 27.5234131,27 20.8959961,27 L12,27 C5.372583,27 1.77635684e-15,21.4035594 0,14.5 C0,7.59644063 5.372583,2 12,2 Z" id="Shape" fill-opacity="0.12" fill="#000000" fill-rule="nonzero"></path>
+                <g transform="translate(4.000000, 0.000000)"></g>
+                <g transform="translate(12.000000, 3.500000)" fill="#FFFFFF" font-family="Helvetica" font-size="15" font-weight="normal" id="1">
+                    <text>
+                        <tspan x="0" y="15">1</tspan>
+                    </text>
+                </g>
+                <g transform="translate(22.895996, 0.000000)"></g>
+            </g>
+            <text id="将" fill="#FFFFFF" font-family="PingFangSC-Regular, PingFang SC" font-size="15" font-weight="normal">
+                <tspan x="12" y="25">将</tspan>
+            </text>
+            <text id="转换为" fill="#FFFFFF" font-family="PingFangSC-Regular, PingFang SC" font-size="15" font-weight="normal">
+                <tspan x="78.8959961" y="25">转换为</tspan>
+            </text>
+            <g id="Group" transform="translate(140.895996, 8.500000)" fill="#FFFFFF" font-family="PingFangSC-Regular, PingFang SC" font-size="15" font-weight="normal">
+                <text id="整数类型">
+                    <tspan x="0" y="16.5">整数类型</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

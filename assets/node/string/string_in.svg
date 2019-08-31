@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="288px" height="38px" viewBox="0 0 288 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>string_in</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="string_in" transform="translate(1.000000, 1.000000)">
+            <polygon id="Shape" stroke="#4BAF2C" fill="#6BCD47" fill-rule="nonzero" points="12 0 20 0 273.882675 0 285.882675 18 273.882675 36 12 36 12 36 0 18.5 12 1"></polygon>
+            <g id="Group" transform="translate(12.000000, 3.500000)">
+                <path d="M12,2 L48.4319763,2 C55.0593933,2 60.4319763,7.59644063 60.4319763,14.5 C60.4319763,21.4035594 55.0593933,27 48.4319763,27 L12,27 C5.372583,27 1.77635684e-15,21.4035594 0,14.5 C0,7.59644063 5.372583,2 12,2 Z" id="Shape" fill-opacity="0.12" fill="#000000" fill-rule="nonzero"></path>
+                <g transform="translate(4.000000, 0.000000)"></g>
+                <g transform="translate(12.000000, 3.500000)" fill="#FFFFFF" font-family="Helvetica" font-size="15" font-weight="normal" id="Hello">
+                    <text>
+                        <tspan x="0" y="15">Hello</tspan>
+                    </text>
+                </g>
+                <g transform="translate(50.431976, 0.000000)"></g>
+            </g>
+            <g id="Group" transform="translate(163.098724, 3.500000)">
+                <path d="M12,2 L98.7839508,2 C105.411368,2 110.783951,7.59644063 110.783951,14.5 C110.783951,21.4035594 105.411368,27 98.7839508,27 L12,27 C5.372583,27 1.77635684e-15,21.4035594 0,14.5 C0,7.59644063 5.372583,2 12,2 Z" id="Shape" fill-opacity="0.12" fill="#000000" fill-rule="nonzero"></path>
+                <g transform="translate(4.000000, 0.000000)"></g>
+                <g transform="translate(12.000000, 3.500000)" fill="#FFFFFF" font-family="Helvetica" font-size="15" font-weight="normal" id="Hello,-World">
+                    <text>
+                        <tspan x="0" y="15">Hello, World</tspan>
+                    </text>
+                </g>
+                <g transform="translate(100.783951, 0.000000)"></g>
+            </g>
+            <g id="Group" transform="translate(86.431976, 6.500000)" fill="#FFFFFF" font-family="PingFangSC-Regular, PingFang SC" font-size="15" font-weight="normal">
+                <text id="存在于">
+                    <tspan x="0" y="16.5">存在于</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

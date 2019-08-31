@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="228px" height="50px" viewBox="0 0 228 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M18,36 C27.9411255,36 36,27.9411255 36,18 C36,8.0588745 27.9411255,0 18,0 C8.0588745,0 0,8.0588745 0,18 C0,27.9411255 8.0588745,36 18,36 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <path d="M25,49 C14.1374637,49 4.62921144,41.7040614 1.81778017,31.2116571 C-0.993651099,20.7192527 3.59276763,9.64665845 13,4.21539031 C22.4072324,-1.21587783 34.2895897,0.348464184 41.9705627,8.02943725 C45,9 45,9 55,9 L125,9 L211.383972,9 C220.220528,9 227.383972,17.954305 227.383972,29 C227.383972,40.045695 220.220528,49 211.383972,49 L40.5,49 L25,49 Z" id="Shape" stroke="#5680D5" fill="#608FEE" fill-rule="nonzero"></path>
+            <g transform="translate(7.000000, 7.000000)">
+                <g id="Oval-71-Copy-7">
+                    <g id="path-1-Clipped">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="path-1"></g>
+                        <path d="M18,36 C27.9411255,36 36,27.9411255 36,18 C36,8.0588745 27.9411255,0 18,0 C8.0588745,0 0,8.0588745 0,18 C0,27.9411255 8.0588745,36 18,36 Z" id="path-1" stroke="#5C7DEC" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                    </g>
+                </g>
+                <path d="M17.3793936,12.6030501 C18.5178186,10.7044776 20.3571459,10.6937635 21.5019954,12.6030501 L27.5051403,22.6146059 C28.6435654,24.5131784 27.7692563,26.0522755 25.5653978,26.0522755 L13.3159912,26.0522755 C11.1062759,26.0522755 10.2313992,24.5238925 11.3762487,22.6146059 L17.3793936,12.6030501 Z" id="Triangle-6-Copy-2" fill="#5B97FF" fill-rule="nonzero" transform="translate(19.438731, 18.613688) rotate(90.000000) translate(-19.438731, -18.613688) "></path>
+            </g>
+            <text id="开始进入Python的世界" fill="#FFFFFF" font-family="PingFangSC-Regular, PingFang SC" font-size="16" font-weight="normal">
+                <tspan x="49" y="34">开始进入</tspan>
+                <tspan x="113" y="34" font-family="Helvetica">Python</tspan>
+                <tspan x="162.8125" y="34">的世界</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

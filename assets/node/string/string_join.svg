@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="358px" height="52px" viewBox="0 0 358 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>string_join</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="string_join" transform="translate(1.000000, 1.000000)">
+            <path d="M12,0 L20,0 L344.378731,0 C351.006148,8.45442189e-16 356.378731,11.1928813 356.378731,25 C356.378731,38.8071187 351.006148,50 344.378731,50 L12,50 C5.372583,50 1.77635684e-15,38.8071187 0,25 C0,11.1928813 5.372583,2.53632657e-15 12,0 Z" id="Shape" stroke="#4BAF2C" fill="#6BCD47" fill-rule="nonzero"></path>
+            <g id="Group" transform="translate(54.000000, 10.500000)">
+                <path d="M12,2 L18.223999,2 C24.851416,2 30.223999,7.59644063 30.223999,14.5 C30.223999,21.4035594 24.851416,27 18.223999,27 L12,27 C5.372583,27 1.77635684e-15,21.4035594 0,14.5 C0,7.59644063 5.372583,2 12,2 Z" id="Shape" fill-opacity="0.12" fill="#000000" fill-rule="nonzero"></path>
+                <g transform="translate(4.000000, 0.000000)"></g>
+                <g transform="translate(12.000000, 3.500000)" fill="#FFFFFF" font-family="Helvetica" font-size="15" font-weight="normal" id="-">
+                    <text>
+                        <tspan x="0" y="15">-</tspan>
+                    </text>
+                </g>
+                <g transform="translate(20.223999, 0.000000)"></g>
+            </g>
+            <g id="Group" transform="translate(116.223999, 5.000000)">
+                <path d="M12,0 L20,0 L64.1547318,0 C70.7821487,6.76353751e-16 76.1547318,8.954305 76.1547318,20 C76.1547318,31.045695 70.7821487,40 64.1547318,40 L12,40 C5.372583,40 1.77635684e-15,31.045695 0,20 C0,8.954305 5.372583,2.02906125e-15 12,0 Z" id="Shape" stroke="#FFFFFF" fill="#FFC063" fill-rule="nonzero"></path>
+                <g transform="translate(18.000000, 10.500000)" fill="#FFFFFF" font-family="Helvetica" font-size="13" font-weight="normal" id="List">
+                    <text>
+                        <tspan x="0" y="13.6666667">List</tspan>
+                    </text>
+                </g>
+            </g>
+            <text id="使用" fill="#FFFFFF" font-family="PingFangSC-Regular, PingFang SC" font-size="15" font-weight="normal">
+                <tspan x="12" y="30">使用</tspan>
+            </text>
+            <text id="将" fill="#FFFFFF" font-family="PingFangSC-Regular, PingFang SC" font-size="15" font-weight="normal">
+                <tspan x="92.223999" y="30">将</tspan>
+            </text>
+            <text id="中的项连接成字符串" fill="#FFFFFF" font-family="PingFangSC-Regular, PingFang SC" font-size="15" font-weight="normal">
+                <tspan x="200.378731" y="30">中的项连接成字符串</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

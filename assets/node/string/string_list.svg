@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="228px" height="42px" viewBox="0 0 228 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>string_list</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="string_list" transform="translate(1.000000, 1.000000)">
+            <path d="M12,0 L20,0 L214.431976,0 C221.059393,6.76353751e-16 226.431976,8.954305 226.431976,20 C226.431976,31.045695 221.059393,40 214.431976,40 L12,40 C5.372583,40 1.77635684e-15,31.045695 0,20 C0,8.954305 5.372583,2.02906125e-15 12,0 Z" id="Shape" stroke="#4BAF2C" fill="#6BCD47" fill-rule="nonzero"></path>
+            <text id="把" fill="#FFFFFF" font-family="PingFangSC-Regular, PingFang SC" font-size="15" font-weight="normal">
+                <tspan x="12" y="25">把</tspan>
+            </text>
+            <text id="分开成列表" fill="#FFFFFF" font-family="PingFangSC-Regular, PingFang SC" font-size="15" font-weight="normal">
+                <tspan x="110.431976" y="25">分开成列表</tspan>
+            </text>
+            <g id="Group" transform="translate(198.431976, 10.000000)"></g>
+            <g id="Group" transform="translate(38.000000, 5.500000)">
+                <path d="M12,2 L48.4319763,2 C55.0593933,2 60.4319763,7.59644063 60.4319763,14.5 C60.4319763,21.4035594 55.0593933,27 48.4319763,27 L12,27 C5.372583,27 1.77635684e-15,21.4035594 0,14.5 C0,7.59644063 5.372583,2 12,2 Z" id="Shape" fill-opacity="0.12" fill="#000000" fill-rule="nonzero"></path>
+                <g transform="translate(4.000000, 0.000000)"></g>
+                <g transform="translate(12.000000, 3.500000)" fill="#FFFFFF" font-family="Helvetica" font-size="15" font-weight="normal" id="Hello">
+                    <text>
+                        <tspan x="0" y="15">Hello</tspan>
+                    </text>
+                </g>
+                <g transform="translate(50.431976, 0.000000)"></g>
+            </g>
+        </g>
+    </g>
+</svg>

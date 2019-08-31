@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="164px" height="42px" viewBox="0 0 164 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(1.000000, 1.000000)">
+            <path d="M0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 L16,0 L24,0 L146.431976,0 C155.268532,6.76353751e-16 162.431976,8.954305 162.431976,20 C162.431976,31.045695 155.268532,40 146.431976,40 L15.5,40 L2,40 C0.8954305,40 1.3527075e-16,39.1045695 0,38 L0,2 Z" id="Shape" stroke="#5680D5" fill="#608FEE" fill-rule="nonzero"></path>
+            <text id="打印" fill="#FFFFFF" font-family="PingFangSC-Regular, PingFang SC" font-size="15" font-weight="normal">
+                <tspan x="16" y="24">打印</tspan>
+            </text>
+            <g transform="translate(58.000000, 7.500000)">
+                <path d="M12,0 L48.4319763,0 C55.0593933,4.22721094e-16 60.4319763,5.59644063 60.4319763,12.5 C60.4319763,19.4035594 55.0593933,25 48.4319763,25 L12,25 C5.372583,25 1.77635684e-15,19.4035594 0,12.5 C0,5.59644063 5.372583,1.26816328e-15 12,0 Z" id="Shape" fill-opacity="0.12" fill="#000000" fill-rule="nonzero"></path>
+                <g transform="translate(9.000000, 2.500000)" fill="#FFFFFF" font-family="Helvetica" font-size="15" font-weight="normal" id="“Hello”">
+                    <text>
+                        <tspan x="0" y="15">“Hello”</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="404px" height="42px" viewBox="0 0 404 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>string_slice</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="string_slice" transform="translate(1.000000, 1.000000)">
+            <path d="M12,0 L20,0 L390.223969,0 C396.851386,6.76353751e-16 402.223969,8.954305 402.223969,20 C402.223969,31.045695 396.851386,40 390.223969,40 L12,40 C5.372583,40 1.77635684e-15,31.045695 0,20 C0,8.954305 5.372583,2.02906125e-15 12,0 Z" id="Shape" stroke="#4BAF2C" fill="#6BCD47" fill-rule="nonzero"></path>
+            <text id="从第" fill="#FFFFFF" font-family="PingFangSC-Regular, PingFang SC" font-size="15" font-weight="normal">
+                <tspan x="80.4319763" y="25">从第</tspan>
+            </text>
+            <text id="项到第" fill="#FFFFFF" font-family="PingFangSC-Regular, PingFang SC" font-size="15" font-weight="normal">
+                <tspan x="161.327972" y="25">项到第</tspan>
+            </text>
+            <text id="项前的子字符串" fill="#FFFFFF" font-family="PingFangSC-Regular, PingFang SC" font-size="15" font-weight="normal">
+                <tspan x="258.223969" y="25">项前的子字符串</tspan>
+            </text>
+            <g id="Group" transform="translate(374.223969, 10.000000)"></g>
+            <g id="Group" transform="translate(12.000000, 5.500000)">
+                <path d="M12,2 L48.4319763,2 C55.0593933,2 60.4319763,7.59644063 60.4319763,14.5 C60.4319763,21.4035594 55.0593933,27 48.4319763,27 L12,27 C5.372583,27 1.77635684e-15,21.4035594 0,14.5 C0,7.59644063 5.372583,2 12,2 Z" id="Shape" fill-opacity="0.12" fill="#000000" fill-rule="nonzero"></path>
+                <g transform="translate(4.000000, 0.000000)"></g>
+                <g transform="translate(12.000000, 3.500000)" fill="#FFFFFF" font-family="Helvetica" font-size="15" font-weight="normal" id="Hello">
+                    <text>
+                        <tspan x="0" y="15">Hello</tspan>
+                    </text>
+                </g>
+                <g transform="translate(50.431976, 0.000000)"></g>
+            </g>
+            <g id="Group" transform="translate(120.431976, 7.500000)">
+                <path d="M12,0 L20.8959961,0 C27.5234131,4.22721094e-16 32.8959961,5.59644063 32.8959961,12.5 C32.8959961,19.4035594 27.5234131,25 20.8959961,25 L12,25 C5.372583,25 1.77635684e-15,19.4035594 0,12.5 C0,5.59644063 5.372583,1.26816328e-15 12,0 Z" id="Shape" fill-opacity="0.12" fill="#000000" fill-rule="nonzero"></path>
+                <g transform="translate(12.000000, 1.500000)" fill="#FFFFFF" font-family="Helvetica" font-size="15" font-weight="normal" id="0">
+                    <text>
+                        <tspan x="0" y="15">0</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Group" transform="translate(217.327972, 7.500000)">
+                <path d="M12,0 L20.8959961,0 C27.5234131,4.22721094e-16 32.8959961,5.59644063 32.8959961,12.5 C32.8959961,19.4035594 27.5234131,25 20.8959961,25 L12,25 C5.372583,25 1.77635684e-15,19.4035594 0,12.5 C0,5.59644063 5.372583,1.26816328e-15 12,0 Z" id="Shape" fill-opacity="0.12" fill="#000000" fill-rule="nonzero"></path>
+                <g transform="translate(12.000000, 1.500000)" fill="#FFFFFF" font-family="Helvetica" font-size="15" font-weight="normal" id="3">
+                    <text>
+                        <tspan x="0" y="15">3</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="441px" height="92px" viewBox="0 0 441 92" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>loop_var</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="loop_var" transform="translate(1.000000, 1.000000)">
+            <path d="M0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 L16,0 L32,0 L423.135986,0 C431.972542,8.45442189e-16 439.135986,11.1928813 439.135986,25 C439.135986,38.8071187 431.972542,50 423.135986,50 L32,50 L18,50 C16.8954305,50 16,50.8954305 16,52 L16,68 C16,69.1045695 16.8954305,70 18,70 L32,70 L76,70 C81.5228475,70 86,74.4771525 86,80 C86,85.5228475 81.5228475,90 76,90 L15.5,90 L2,90 C0.8954305,90 1.3527075e-16,89.1045695 0,88 L0,2 Z" id="Shape" stroke="#56A2C9" fill="#68CDFF" fill-rule="nonzero"></path>
+            <g id="Group" transform="translate(88.000000, 5.000000)">
+                <path d="M12,0 L20,0 L42.2187424,0 C48.8461594,6.76353751e-16 54.2187424,8.954305 54.2187424,20 C54.2187424,31.045695 48.8461594,40 42.2187424,40 L12,40 C5.372583,40 1.77635684e-15,31.045695 0,20 C0,8.954305 5.372583,2.02906125e-15 12,0 Z" id="Shape" stroke="#FFFFFF" fill="#FFC063" fill-rule="nonzero"></path>
+                <g transform="translate(18.000000, 10.500000)" fill="#FFFFFF" font-family="Helvetica" font-size="13" font-weight="normal" id="i">
+                    <text>
+                        <tspan x="0" y="13.6666667">i</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Group" transform="translate(192.000000, 5.000000)">
+                <path d="M12,0 L20,0 L219.135986,0 C225.763403,6.76353751e-16 231.135986,8.954305 231.135986,20 C231.135986,31.045695 225.763403,40 219.135986,40 L12,40 C5.372583,40 1.77635684e-15,31.045695 0,20 C0,8.954305 5.372583,2.02906125e-15 12,0 Z" id="Shape" stroke="#56A2C9" fill="#68CDFF" fill-rule="nonzero"></path>
+                <text id="序列" fill="#FFFFFF" font-family="PingFangSC-Regular, PingFang SC" font-size="15" font-weight="normal">
+                    <tspan x="12" y="26">序列</tspan>
+                </text>
+                <text id="到" fill="#FFFFFF" font-family="PingFangSC-Regular, PingFang SC" font-size="15" font-weight="normal">
+                    <tspan x="92.8959961" y="26">到</tspan>
+                </text>
+                <text id="前" fill="#FFFFFF" font-family="PingFangSC-Regular, PingFang SC" font-size="15" font-weight="normal">
+                    <tspan x="158.687988" y="26">前</tspan>
+                </text>
+                <g transform="translate(183.135986, 10.000000)"></g>
+                <g transform="translate(52.000000, 7.500000)">
+                    <path d="M12,0 L20.8959961,0 C27.5234131,4.22721094e-16 32.8959961,5.59644063 32.8959961,12.5 C32.8959961,19.4035594 27.5234131,25 20.8959961,25 L12,25 C5.372583,25 1.77635684e-15,19.4035594 0,12.5 C0,5.59644063 5.372583,1.26816328e-15 12,0 Z" id="Shape" fill-opacity="0.12" fill="#000000" fill-rule="nonzero"></path>
+                    <g transform="translate(12.000000, 2.500000)" fill="#FFFFFF" font-family="Helvetica" font-size="15" font-weight="normal" id="0">
+                        <text>
+                            <tspan x="0" y="15">0</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g transform="translate(108.895996, 7.500000)">
+                    <path d="M12,0 L29.7919922,0 C36.4194092,4.22721094e-16 41.7919922,5.59644063 41.7919922,12.5 C41.7919922,19.4035594 36.4194092,25 29.7919922,25 L12,25 C5.372583,25 1.77635684e-15,19.4035594 0,12.5 C0,5.59644063 5.372583,1.26816328e-15 12,0 Z" id="Shape" fill-opacity="0.12" fill="#000000" fill-rule="nonzero"></path>
+                    <g transform="translate(12.000000, 2.500000)" fill="#FFFFFF" font-family="Helvetica" font-size="15" font-weight="normal" id="10">
+                        <text>
+                            <tspan x="0" y="15">10</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+            <text id="使用变量" fill="#FFFFFF" font-family="PingFangSC-Regular, PingFang SC" font-size="15" font-weight="normal">
+                <tspan x="16" y="31">使用变量</tspan>
+            </text>
+            <text id="遍历" fill="#FFFFFF" font-family="PingFangSC-Regular, PingFang SC" font-size="15" font-weight="normal">
+                <tspan x="152" y="31">遍历</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

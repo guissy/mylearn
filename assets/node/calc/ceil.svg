@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="171px" height="38px" viewBox="0 0 171 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>ceil</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ceil" transform="translate(1.000000, 1.000000)">
+            <path d="M12,0 L20,0 L156.906738,0 C163.534155,6.08718376e-16 168.906738,8.0588745 168.906738,18 C168.906738,27.9411255 163.534155,36 156.906738,36 L12,36 C5.372583,36 1.77635684e-15,27.9411255 0,18 C0,8.0588745 5.372583,1.82615513e-15 12,0 Z" id="Shape" stroke="#E1A78C" fill="#FBBA9D" fill-rule="nonzero"></path>
+            <g id="Group" transform="translate(110.666748, 5.500000)">
+                <path d="M12,0 L34.2399902,0 C40.8674072,4.22721094e-16 46.2399902,5.59644063 46.2399902,12.5 C46.2399902,19.4035594 40.8674072,25 34.2399902,25 L12,25 C5.372583,25 1.77635684e-15,19.4035594 0,12.5 C0,5.59644063 5.372583,1.26816328e-15 12,0 Z" id="Shape" fill-opacity="0.12" fill="#000000" fill-rule="nonzero"></path>
+                <g transform="translate(12.000000, 1.500000)" fill="#FFFFFF" font-family="Helvetica" font-size="15" font-weight="normal" id="3.1">
+                    <text>
+                        <tspan x="0" y="15">3.1</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Group" transform="translate(18.000000, 6.500000)" fill="#FFFFFF" font-family="PingFangSC-Regular, PingFang SC" font-size="15" font-weight="normal">
+                <text id="向上舍入">
+                    <tspan x="0" y="16.5">向上舍入</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

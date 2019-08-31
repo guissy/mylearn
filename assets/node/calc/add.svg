@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="144px" height="38px" viewBox="0 0 144 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>add</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="add" transform="translate(1.000000, 1.000000)">
+            <path d="M12,0 L20,0 L130.058739,0 C136.686156,6.08718376e-16 142.058739,8.0588745 142.058739,18 C142.058739,27.9411255 136.686156,36 130.058739,36 L12,36 C5.372583,36 1.77635684e-15,27.9411255 0,18 C0,8.0588745 5.372583,1.82615513e-15 12,0 Z" id="Shape" stroke="#E1A78C" fill="#FBBA9D" fill-rule="nonzero"></path>
+            <g id="Group" transform="translate(12.000000, 5.500000)">
+                <path d="M12,0 L20.8959961,0 C27.5234131,4.22721094e-16 32.8959961,5.59644063 32.8959961,12.5 C32.8959961,19.4035594 27.5234131,25 20.8959961,25 L12,25 C5.372583,25 1.77635684e-15,19.4035594 0,12.5 C0,5.59644063 5.372583,1.26816328e-15 12,0 Z" id="Shape" fill-opacity="0.12" fill="#000000" fill-rule="nonzero"></path>
+                <g transform="translate(12.000000, 1.500000)" fill="#FFFFFF" font-family="Helvetica" font-size="15" font-weight="normal" id="1">
+                    <text>
+                        <tspan x="0" y="15">1</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Group" transform="translate(97.162743, 5.500000)">
+                <path d="M12,0 L20.8959961,0 C27.5234131,4.22721094e-16 32.8959961,5.59644063 32.8959961,12.5 C32.8959961,19.4035594 27.5234131,25 20.8959961,25 L12,25 C5.372583,25 1.77635684e-15,19.4035594 0,12.5 C0,5.59644063 5.372583,1.26816328e-15 12,0 Z" id="Shape" fill-opacity="0.12" fill="#000000" fill-rule="nonzero"></path>
+                <g transform="translate(12.000000, 1.500000)" fill="#FFFFFF" font-family="Helvetica" font-size="15" font-weight="normal" id="1">
+                    <text>
+                        <tspan x="0" y="15">1</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Group" transform="translate(58.895996, 6.500000)" fill="#FFFFFF" font-family="Helvetica" font-size="15" font-weight="normal">
+                <text id="+">
+                    <tspan x="0" y="15.5">+</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

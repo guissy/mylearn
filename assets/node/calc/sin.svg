@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="147px" height="42px" viewBox="0 0 147 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>sin</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="sin" transform="translate(1.000000, 1.000000)">
+            <path d="M12,0 L20,0 L132.906731,0 C139.534148,6.76353751e-16 144.906731,8.954305 144.906731,20 C144.906731,31.045695 139.534148,40 132.906731,40 L12,40 C5.372583,40 1.77635684e-15,31.045695 0,20 C0,8.954305 5.372583,2.02906125e-15 12,0 Z" id="Shape" stroke="#E1A78C" fill="#FBBA9D" fill-rule="nonzero"></path>
+            <g id="Group" transform="translate(67.114738, 7.500000)">
+                <path d="M12,0 L29.7919922,0 C36.4194092,4.22721094e-16 41.7919922,5.59644063 41.7919922,12.5 C41.7919922,19.4035594 36.4194092,25 29.7919922,25 L12,25 C5.372583,25 1.77635684e-15,19.4035594 0,12.5 C0,5.59644063 5.372583,1.26816328e-15 12,0 Z" id="Shape" fill-opacity="0.12" fill="#000000" fill-rule="nonzero"></path>
+                <g transform="translate(12.000000, 1.500000)" fill="#FFFFFF" font-family="Helvetica" font-size="15" font-weight="normal" id="45">
+                    <text>
+                        <tspan x="0" y="15">45</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Group" transform="translate(18.000000, 8.500000)" fill="#FFFFFF" font-family="Helvetica" font-size="15" font-weight="normal">
+                <text id="sin">
+                    <tspan x="0" y="15.5">sin</tspan>
+                </text>
+            </g>
+            <text id="度" fill="#FFFFFF" font-family="PingFangSC-Regular, PingFang SC" font-size="15" font-weight="normal">
+                <tspan x="116.906731" y="25">度</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

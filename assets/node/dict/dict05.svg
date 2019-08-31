@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="310px" height="52px" viewBox="0 0 310 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>dict05</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="dict05" transform="translate(2.000000, 1.000000)">
+            <polygon id="Shape" stroke-opacity="0.1" stroke="#7D68F1" stroke-width="2" fill="#7D68F1" fill-rule="nonzero" points="12 0 20 0 294.629456 0 306.629456 25 294.629456 50 12 50 12 50 0 25.5 12 1"></polygon>
+            <g id="Group" transform="translate(38.000000, 10.500000)">
+                <path d="M12,2 L66.8479767,2 C73.4753937,2 78.8479767,7.59644063 78.8479767,14.5 C78.8479767,21.4035594 73.4753937,27 66.8479767,27 L12,27 C5.372583,27 1.77635684e-15,21.4035594 0,14.5 C0,7.59644063 5.372583,2 12,2 Z" id="Shape" fill-opacity="0.12" fill="#000000" fill-rule="nonzero"></path>
+                <g transform="translate(4.000000, 0.000000)"></g>
+                <g transform="translate(12.000000, 2.500000)" fill="#FFFFFF" font-family="Helvetica" font-size="15" font-weight="normal" id="number">
+                    <text>
+                        <tspan x="0" y="15">number</tspan>
+                    </text>
+                </g>
+                <g transform="translate(68.847977, 0.000000)"></g>
+            </g>
+            <g id="Group" transform="translate(207.514725, 5.000000)">
+                <path d="M12,0 L20,0 L67.1147308,0 C73.7421478,6.76353751e-16 79.1147308,8.954305 79.1147308,20 C79.1147308,31.045695 73.7421478,40 67.1147308,40 L12,40 C5.372583,40 1.77635684e-15,31.045695 0,20 C0,8.954305 5.372583,2.02906125e-15 12,0 Z" id="Shape" stroke="#FFFFFF" fill="#FFC063" fill-rule="nonzero"></path>
+                <g transform="translate(18.000000, 10.500000)" fill="#FFFFFF" font-family="Helvetica" font-size="13" font-weight="normal" id="Dict">
+                    <text>
+                        <tspan x="0" y="13.6666667">Dict</tspan>
+                    </text>
+                </g>
+            </g>
+            <text id="键" fill="#FFFFFF" font-family="PingFangSC-Regular, PingFang SC" font-size="15" font-weight="normal">
+                <tspan x="12" y="29">键</tspan>
+            </text>
+            <g id="Group" transform="translate(130.847977, 12.500000)" fill="#FFFFFF" font-family="PingFangSC-Regular, PingFang SC" font-size="15" font-weight="normal">
+                <text id="存在于">
+                    <tspan x="0" y="16.5">存在于</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
