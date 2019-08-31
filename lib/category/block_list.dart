@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:provider/provider.dart';
+
+import '../store.dart';
 
 class BlockList extends StatelessWidget {
   final List<String> _event = 'code.svg,code2.svg,comment.svg,input.svg,print.svg,prompt.svg,start.svg'.split(',');
@@ -21,12 +24,21 @@ class BlockList extends StatelessWidget {
     return Container(
       width: 500.0,
       height: MediaQuery.of(context).size.height - 80.0,
-      decoration: BoxDecoration(color: Color(0xfff8f6f2)),
+      decoration: BoxDecoration(color: Color(0xfff7f2e7)),
       child: ListView.builder(
           itemCount: nodes[_index].length,
           itemBuilder: (_, i) => Container(
-            margin: EdgeInsets.symmetric(vertical: 10.0),
-            child: SvgPicture.asset('assets/node/' + dirs[_index] + '/' + nodes[_index][i]),
+            margin: EdgeInsets.symmetric(vertical: 5.0),
+            child: FlatButton(
+              onPressed: () {
+                Provider.of<Store>(context, listen: false).hideBlockBool();
+                Provider.of<Store>(context, listen: false)
+                    .setBlockSvg('assets/node/' + dirs[_index] + '/' + nodes[_index][i]);
+              },
+              child: Container(
+                child: SvgPicture.asset('assets/node/' + dirs[_index] + '/' + nodes[_index][i]),
+              ),
+            ),
           )),
     );
   }

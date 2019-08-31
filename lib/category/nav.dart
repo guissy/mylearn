@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:provider/provider.dart';
 
 import '../store.dart';
@@ -11,6 +12,16 @@ class CategoryNav extends StatefulWidget {
 
 class _CategoryNavState extends State<CategoryNav> {
   final _category = ['事件', '控制', '运算', '字符串', '变量', '列表', '字典', '函数'];
+  final _categoryIcon = [
+    'events',
+    'control',
+    'calculator',
+    'string',
+    'variable',
+    'list',
+    'dictionary',
+    'functions'
+  ];
   final _categoryColor = [
     0xff68cdff,
     0xfffbbda2,
@@ -41,15 +52,15 @@ class _CategoryNavState extends State<CategoryNav> {
           child: ListView(
               children: List.generate(_category.length, (index) {
             return Container(
-              width: 200.0,
+              width: 180.0,
               height:
                   (MediaQuery.of(context).size.height - 80) / _category.length,
-              padding: EdgeInsets.symmetric(vertical: 15.0),
+              padding: EdgeInsets.all(15.0),
               color: Color(0xfff7f2e7),
               child: SizedBox(
                   height: 60.0,
                   child: Consumer<Store>(
-                    builder: (content, store, child) => IconButton(
+                    builder: (content, store, child) => FlatButton(
                         color: isActive(index)
                             ? Color(_categoryColor[index])
                             : Colors.transparent,
@@ -68,25 +79,37 @@ class _CategoryNavState extends State<CategoryNav> {
                           Provider.of<Store>(context, listen: false)
                               .selectBlockBool(index);
                         },
-                        child: Text(_category[index],
-                            textAlign: TextAlign.center,
-                            style: TextStyle(
-                                color: Color(
-                                    isActive(index) ? 0xffffffff : 0xff7E683B),
-                                fontSize: 20))),
+                        child: Row(
+                            mainAxisAlignment: MainAxisAlignment.start,
+                            children: <Widget>[
+                              CircleAvatar(
+                                backgroundColor: Color(_categoryColor[index]),
+                                child: SvgPicture.asset(
+                                  'assets/node_icon/icn_blockly_' +
+                                      _categoryIcon[index] +
+                                      '_inside.svg',
+                                  color: Colors.white,
+                                ),
+                              ),
+                              Text('   ' + _category[index],
+                                  textAlign: TextAlign.center,
+                                  style: TextStyle(
+                                      color: Color(isActive(index)
+                                          ? 0xffffffff
+                                          : 0xff7E683B),
+                                      fontSize: 20))
+                            ])),
                   )),
             );
           })),
         ),
         Consumer<Store>(
-            builder: (context, store, child) => store.canShowBlockPool
-                ? Positioned(
-                    left: 180.0,
-                    top: 0.0,
-                    width: 400.0,
-                    child: BlockList(store.selectedBlockBool),
-                  )
-                : Container())
+            builder: (context, store, child) => Positioned(
+                  left: 180.0,
+                  top: 0.0,
+                  width: store.canShowBlockPool ? 400.0 : 0,
+                  child: BlockList(store.selectedBlockBool),
+                ))
       ],
     );
   }

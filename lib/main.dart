@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:provider/provider.dart';
 import 'category/nav.dart';
+import 'stage/stage.dart';
 import 'store.dart';
 
 void main() {
@@ -18,7 +20,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primaryColor: Color(0xffffd236),
       ),
       home: MyHomePage(),
     );
@@ -31,33 +33,55 @@ class MyHomePage extends StatelessWidget {
     print(MediaQuery.of(context).size.height - 80);
     return Scaffold(
       appBar: AppBar(
-        title: Text('🌺🌺🌺'),
+        actions: <Widget>[
+          IconButton(
+            iconSize: 40.0,
+            icon: Icon(Icons.home),
+          ),
+          IconButton(
+            iconSize: 40.0,
+            icon: Icon(Icons.folder_open),
+          ),
+          Padding(
+            padding: EdgeInsets.symmetric(vertical: 8.0),
+            child: Text('文件', style: TextStyle(fontSize: 24.0),),
+          ),
+          IconButton(
+            iconSize: 40.0,
+            icon: Icon(Icons.save),
+          ),
+          Container(
+            margin: EdgeInsets.all(8.0),
+            decoration: BoxDecoration(
+              border: Border.all()
+            ),
+            padding: EdgeInsets.symmetric(horizontal: 6.0),
+            child: Text('新的作品', style: TextStyle(fontSize: 24),),
+          )
+        ],
       ),
       body: Container(
-//        width: MediaQuery.of(context).size.width,
-//        height: MediaQuery.of(context).size.height - 80,
           child: Stack(
-//          mainAxisAlignment: MainAxisAlignment.start,
-//          mainAxisSize: MainAxisSize.min,
-//          crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
-          Positioned(
-              top: 0.0,
-              left: 180.0,
-              height: MediaQuery.of(context).size.height - 80.0,
-              width: MediaQuery.of(context).size.width - 180.0,
-              child: GestureDetector(
-                onTap: () => Provider.of<Store>(context, listen: false).hideBlockBool(),
-                  child: Container(
-                decoration: BoxDecoration(color: Color(0xffcceeee)),
-                child: Text(
-                    '某君的QQ状态很搞，上面浪漫的写着：“你五毛我五毛，那么咱俩就能凑一块了！”众人羡慕之时，另一女说到：“你六毛我六毛咱俩就能一块2了。”再另一女接到：“你七毛我七毛，咱俩就能一块死了……”',
-                    style: TextStyle(fontSize: 24.0)),
-              ))),
+          Consumer<Store>(
+              builder: (context, store, child) => Positioned(
+                  top: 0.0,
+                  left: !store.canShowBlockPool ? 180.0 : 580,
+                  height: MediaQuery.of(context).size.height - 80.0,
+                  width: MediaQuery.of(context).size.width - 180.0,
+                  child: Consumer<Store>(
+                      builder: (context, store, child) => store.canShowBlockPool
+                          ? GestureDetector(
+                              onTap: () =>
+                                  Provider.of<Store>(context, listen: false)
+                                      .hideBlockBool(),
+                              child: Stage())
+                          : Stage()))),
           Positioned(
             top: 0.0,
             left: 0.0,
             height: MediaQuery.of(context).size.height,
+            width: 580.0,
             child: Column(
               mainAxisSize: MainAxisSize.max,
               mainAxisAlignment: MainAxisAlignment.start,
@@ -65,28 +89,13 @@ class MyHomePage extends StatelessWidget {
               children: <Widget>[
                 Expanded(
                   flex: 1,
-                  child: SizedBox(
-                    width: 180.0,
-                    child: CategoryNav(),
-                  ),
+                  child: CategoryNav(),
                 )
-
-//            Consumer<Store>(
-//              builder: (context, store, child) => Text(
-//                '${store.value}',
-//                style: Theme.of(context).textTheme.display1,
-//              ),
-//            ),
               ],
             ),
           ),
         ],
       )),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () => Provider.of<Store>(context, listen: false).increment(),
-        tooltip: 'Increment',
-        child: Icon(Icons.add),
-      ),
     );
   }
 }

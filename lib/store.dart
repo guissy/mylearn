@@ -5,6 +5,8 @@ class Store with ChangeNotifier {
   int value = 0;
   int selectedBlockBool = 0;
   bool canShowBlockPool = false;
+  String blockSvg = '';
+  List<String> blockSvgList = [];
 
   void increment() {
     value += 1;
@@ -24,6 +26,12 @@ class Store with ChangeNotifier {
   }
   void selectBlockBool(int index) {
     this.selectedBlockBool = index;
+    notifyListeners();
+  }
+  void setBlockSvg(String url) {
+    this.blockSvg = url;
+    this.blockSvgList.add(url);
+    print(url);
     notifyListeners();
   }
 }

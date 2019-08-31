@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>icn_blockly_events_inside</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icn_blockly_events_inside" fill="#000000" fill-rule="nonzero">
+            <path d="M14,28 C6.2680135,28 0,21.7319865 0,14 C0,6.2680135 6.2680135,0 14,0 C21.7319865,0 28,6.2680135 28,14 C28,21.7319865 21.7319865,28 14,28 Z M4,14 C4,17.3069658 6.68658675,20 10.0006595,20 L17.9993405,20 C21.3234637,20 24,17.3137085 24,14 C24,10.6930342 21.3134132,8 17.9993405,8 L10.0006595,8 C6.67653633,8 4,10.6862915 4,14 Z M10,17 C8.34314575,17 7,15.6568542 7,14 C7,12.3431458 8.34314575,11 10,11 C11.6568542,11 13,12.3431458 13,14 C13,15.6568542 11.6568542,17 10,17 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>
