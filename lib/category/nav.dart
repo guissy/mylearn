@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:mylearn/abc/categoryEntity.dart';
 import 'package:provider/provider.dart';
 
 import '../store.dart';
@@ -11,27 +12,6 @@ class CategoryNav extends StatefulWidget {
 }
 
 class _CategoryNavState extends State<CategoryNav> {
-  final _category = ['事件', '控制', '运算', '字符串', '变量', '列表', '字典', '函数'];
-  final _categoryIcon = [
-    'events',
-    'control',
-    'calculator',
-    'string',
-    'variable',
-    'list',
-    'dictionary',
-    'functions'
-  ];
-  final _categoryColor = [
-    0xff68cdff,
-    0xfffbbda2,
-    0xff7E683B,
-    0xff77e354,
-    0xfff5b768,
-    0xffffd263,
-    0xff7d68f1,
-    0xfff08f63
-  ];
 
   isActive(index) {
     return index ==
@@ -50,11 +30,11 @@ class _CategoryNavState extends State<CategoryNav> {
           width: 180.0,
           height: MediaQuery.of(context).size.height - 80,
           child: ListView(
-              children: List.generate(_category.length, (index) {
+              children: List.generate(CategoryItem.items.length, (index) {
             return Container(
               width: 180.0,
               height:
-                  (MediaQuery.of(context).size.height - 80) / _category.length,
+                  (MediaQuery.of(context).size.height - 80) / CategoryItem.items.length,
               padding: EdgeInsets.all(15.0),
               color: Color(0xfff7f2e7),
               child: SizedBox(
@@ -62,7 +42,7 @@ class _CategoryNavState extends State<CategoryNav> {
                   child: Consumer<Store>(
                     builder: (content, store, child) => FlatButton(
                         color: isActive(index)
-                            ? Color(_categoryColor[index])
+                            ? Color(CategoryItem.items[index].color)
                             : Colors.transparent,
                         shape: const RoundedRectangleBorder(
                             side: BorderSide.none,
@@ -83,15 +63,15 @@ class _CategoryNavState extends State<CategoryNav> {
                             mainAxisAlignment: MainAxisAlignment.start,
                             children: <Widget>[
                               CircleAvatar(
-                                backgroundColor: Color(_categoryColor[index]),
+                                backgroundColor: Color(CategoryItem.items[index].color),
                                 child: SvgPicture.asset(
                                   'assets/node_icon/icn_blockly_' +
-                                      _categoryIcon[index] +
+                                      CategoryItem.items[index].icon +
                                       '_inside.svg',
                                   color: Colors.white,
                                 ),
                               ),
-                              Text('   ' + _category[index],
+                              Text('   ' + CategoryItem.items[index].name,
                                   textAlign: TextAlign.center,
                                   style: TextStyle(
                                       color: Color(isActive(index)
