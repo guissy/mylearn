@@ -1,12 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+enum EditMode {
+  block,
+  code,
+}
+
 class Store with ChangeNotifier {
   int value = 0;
   int selectedBlockBool = 0;
   bool canShowBlockPool = false;
   String blockSvg = '';
   List<String> blockSvgList = [];
+  EditMode mode = EditMode.block;
 
   void increment() {
     value += 1;
@@ -33,5 +39,14 @@ class Store with ChangeNotifier {
     this.blockSvgList.add(url);
     print(url);
     notifyListeners();
+  }
+  void toggleEditMode() {
+    this.mode = this.mode == EditMode.code
+        ? EditMode.block
+        : EditMode.code;
+    notifyListeners();
+  }
+  bool isCodeMode() {
+    return this.mode == EditMode.code;
   }
 }
