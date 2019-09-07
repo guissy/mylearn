@@ -37,6 +37,23 @@ class MyHomePage extends StatelessWidget {
         appBar: Toolbar(),
         body: Consumer<Store>(
             builder: (context, store, child) =>
-                store.isCodeMode() ? Editor() : BlockStage()));
+                store.isCodeMode() ? Editor() : BlockStage()),
+        floatingActionButton: Consumer<Store>(
+            builder: (context, store, child) => store.isCodeMode()
+                ? FloatingActionButton.extended(
+                    icon: const Icon(
+                      Icons.play_arrow,
+                      size: 36.0,
+                    ),
+                    tooltip: "运行代码",
+                    foregroundColor: Colors.white,
+                    backgroundColor: Color(0xffffd236),
+                    heroTag: null,
+                    elevation: 1.0,
+                    onPressed: () {},
+                    label: Text('运行', style: TextStyle(fontSize: 24.0)),
+//            shape: new CircleBorder(),
+                  )
+                : Container()));
   }
 }
