@@ -52,7 +52,6 @@ class MyHomePage extends StatelessWidget {
                     elevation: 1.0,
                     onPressed: () {},
                     label: Text('运行', style: TextStyle(fontSize: 24.0)),
-//            shape: new CircleBorder(),
                   )
                 : Container()));
   }
