@@ -108,6 +108,7 @@ class _EditorState extends State<Editor> {
       "vars",
       "zip"
     ];
+    RegExp isComment = new RegExp(r'^#.+');
     s.forEach((e) {
       if (keywords.contains(e)) {
         widgets.add(TextSpan(text: e, style: TextStyle(color: Color(0xff4ca9e9))));
@@ -122,8 +123,10 @@ class _EditorState extends State<Editor> {
         String other = e.split('(').sublist(1).join('(');
         widgets.add(TextSpan(text: world, style: TextStyle(color: Color(0xffff4e4a))));
         widgets.add(TextSpan(text: '('+other, style: TextStyle(color: Color(0xff3d3c3c))));
+        // Todo other is number or string bool
+      } else if (isComment.hasMatch(e)) {
+        widgets.add(TextSpan(text: e, style: TextStyle(color: Color(0xffff9d00))));
       } else {
-        print(e);
         widgets.add(TextSpan(text: e, style: TextStyle(color: Color(0xff3d3c3c))));
       }
       widgets.add(TextSpan(text: ' '));
