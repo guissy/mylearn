@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mylearn/abc/getCodeSpan.dart';
 
 class Editor extends StatefulWidget {
   @override
@@ -7,42 +8,11 @@ class Editor extends StatefulWidget {
 
 class _EditorState extends State<Editor> {
 
-  getCodeWords(String str) {
-
-    List<String> s = str.split(' ');
-    List<TextSpan> widgets = [];
-    RegExp isNumber = new RegExp(r"^(\d)*\.?(\d)*$");
-    RegExp isString = new RegExp(r"^'.+'$");
-    RegExp isString2 = new RegExp(r'^".+"$');
-    RegExp isComment = new RegExp(r'^#.+');
-    s.forEach((e) {
-      if (
-      keywords.contains(e)) {
-        widgets.add(TextSpan(text: e, style: TextStyle(color: Color(0xff4ca9e9))));
-      } else if (isNumber.hasMatch(e)) {
-        widgets.add(TextSpan(text: e, style: TextStyle(color: Color(0xff8679d5))));
-      } else if (isString.hasMatch(e) || isString2.hasMatch(e)) {
-        widgets.add(TextSpan(text: e, style: TextStyle(color: Color(0xff1dab51))));
-      } else if (e == 'True' || e == 'False') {
-        widgets.add(TextSpan(text: e, style: TextStyle(color: Color(0xffb58267))));
-      } else if (functions.contains(e.split('(')[0])) {
-        String world = e.split('(')[0];
-        String other = e.split('(').sublist(1).join('(');
-        widgets.add(TextSpan(text: world, style: TextStyle(color: Color(0xffff4e4a))));
-        widgets.add(TextSpan(text: '('+other, style: TextStyle(color: Color(0xff3d3c3c))));
-        // Todo other is number or string bool
-      } else if (isComment.hasMatch(e)) {
-        widgets.add(TextSpan(text: e, style: TextStyle(color: Color(0xffff9d00))));
-      } else {
-        widgets.add(TextSpan(text: e, style: TextStyle(color: Color(0xff3d3c3c))));
-      }
-      widgets.add(TextSpan(text: ' '));
-    });
-    return widgets;
-  }
+  GetCodeSpan getCodeSpan = new GetCodeSpan('for i in range(0, 10): \n   pass');
 
   @override
   Widget build(BuildContext context) {
+//    getCodeSpan.start('for i in range(0, 10): \n   pass', 0);
     List<String> code = 'for i in range(0, 10): \n   pass'.split('\n');
     return Container(
       child: Row(
@@ -89,7 +59,7 @@ class _EditorState extends State<Editor> {
                             text: '',
                             style: TextStyle(
                                 color: Colors.black, fontSize: 28.0),
-                            children: getCodeWords(code[i]),
+                            children: getCodeSpan.start(code[i], 0),
                           ),
                         ),
                       )),
