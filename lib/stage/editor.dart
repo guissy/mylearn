@@ -16,7 +16,8 @@ class _EditorState extends State<Editor> {
     RegExp isString2 = new RegExp(r'^".+"$');
     RegExp isComment = new RegExp(r'^#.+');
     s.forEach((e) {
-      if (keywords.contains(e)) {
+      if (
+      keywords.contains(e)) {
         widgets.add(TextSpan(text: e, style: TextStyle(color: Color(0xff4ca9e9))));
       } else if (isNumber.hasMatch(e)) {
         widgets.add(TextSpan(text: e, style: TextStyle(color: Color(0xff8679d5))));

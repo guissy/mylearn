@@ -1,22 +1,21 @@
 import 'package:mylearn/abc/getCodeSpan.dart';
 import "package:test/test.dart";
-// Import the test package
 
-int Add(int x,int y) {
-  return x+y;
-}
 void main() {
-  // Define the test
-  test("test to check add method",(){
-    // Arrange
-    var expected = "流动性比利润更重要";
-    var line = "for a in \"流动性比利润更重要\":";
-    var getCodeSpan = GetCodeSpan(line);
-    // Act
-    var actual = getCodeSpan.extractString(line);
-
-    // Asset
-    expect(actual,expected);
+  group("字符串", () {
+    test("提取字符串: 双引号", () {
+      var line1 = "for a in \"Hello World\":";
+      var getCodeSpan = GetCodeSpan(line1);
+      var expected = ["\"Hello World\"", 9, 22];
+      var actual = getCodeSpan.extractString();
+      expect(actual, expected);
+    });
+    test("提取字符串: 单引号", () {
+      var line1 = "for a in \'Hello World\':";
+      var getCodeSpan = GetCodeSpan(line1);
+      var expected = ["\'Hello World\'", 9, 22];
+      var actual = getCodeSpan.extractString();
+      expect(actual, expected);
+    });
   });
 }
-
