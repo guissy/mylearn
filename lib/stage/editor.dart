@@ -8,7 +8,12 @@ class Editor extends StatefulWidget {
 
 class _EditorState extends State<Editor> {
 
-  GetCodeSpan getCodeSpan = new GetCodeSpan('for i in range(0, 10): \n   pass');
+  GetCodeSpan getCodeSpan = new GetCodeSpan('');
+
+  getSpan(String s) {
+    getCodeSpan.spans.clear();
+    return getCodeSpan.start(s, 0);
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -59,7 +64,7 @@ class _EditorState extends State<Editor> {
                             text: '',
                             style: TextStyle(
                                 color: Colors.black, fontSize: 28.0),
-                            children: getCodeSpan.start(code[i], 0),
+                            children: getSpan(code[i]),
                           ),
                         ),
                       )),

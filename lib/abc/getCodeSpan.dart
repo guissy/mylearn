@@ -52,29 +52,7 @@ class GetCodeSpan {
                   }
                 });
               } else {
-                RegExp isNumber = new RegExp(r"^(\d)*\.?(\d)*$");
-                RegExp isComment = new RegExp(r'^#.+');
-                RegExp isBool = new RegExp(r'^(True|False)$');
-                if (
-                PythonSyntax.keywords.contains(str)) {
-                  spans.insert(index, TextSpan(text: str, style: TextStyle(color: Color(0xff4ca9e9))));
-                }
-                else if (
-                PythonSyntax.functions.contains(str)) {
-                  spans.insert(index, TextSpan(text: str, style: TextStyle(color: Color(0xffff4e4a))));
-                }
-                else if (
-                PythonSyntax.functions.contains(str)) {
-                  spans.insert(index, TextSpan(text: str, style: TextStyle(color: Color(0xffff4e4a))));
-                } else if (isNumber.hasMatch(str)) {
-                  spans.insert(index, TextSpan(text: str, style: TextStyle(color: Color(0xff8679d5))));
-                } else if (isBool.hasMatch(str)) {
-                  spans.insert(index, TextSpan(text: str, style: TextStyle(color: Color(0xffb58267))));
-                } else if (isComment.hasMatch(str)) {
-                  spans.insert(index, TextSpan(text: str, style: TextStyle(color: Color(0xffff9d00))));
-                } else {
-                  spans.insert(index, TextSpan(text: str, style: TextStyle(color: Color(0xff3d3c3c))));
-                }
+                renderWord(str, index);
               }
             }
           }
@@ -82,6 +60,32 @@ class GetCodeSpan {
       }
     }
     return spans;
+  }
+
+  renderWord(str, index) {
+    RegExp isNumber = new RegExp(r"^(\d)*\.?(\d)*$");
+    RegExp isComment = new RegExp(r'^#.+');
+    RegExp isBool = new RegExp(r'^(True|False)$');
+    if (
+    PythonSyntax.keywords.contains(str)) {
+      spans.insert(index, TextSpan(text: str, style: TextStyle(color: Color(0xff4ca9e9))));
+    }
+    else if (
+    PythonSyntax.functions.contains(str)) {
+      spans.insert(index, TextSpan(text: str, style: TextStyle(color: Color(0xffff4e4a))));
+    }
+    else if (
+    PythonSyntax.functions.contains(str)) {
+      spans.insert(index, TextSpan(text: str, style: TextStyle(color: Color(0xffff4e4a))));
+    } else if (isNumber.hasMatch(str)) {
+      spans.insert(index, TextSpan(text: str, style: TextStyle(color: Color(0xff8679d5))));
+    } else if (isBool.hasMatch(str)) {
+      spans.insert(index, TextSpan(text: str, style: TextStyle(color: Color(0xffb58267))));
+    } else if (isComment.hasMatch(str)) {
+      spans.insert(index, TextSpan(text: str, style: TextStyle(color: Color(0xffff9d00))));
+    } else {
+      spans.insert(index, TextSpan(text: str, style: TextStyle(color: Color(0xff3d3c3c))));
+    }
   }
 
   // 括号/逗号/空格
