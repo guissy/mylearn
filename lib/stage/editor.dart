@@ -17,7 +17,6 @@ class _EditorState extends State<Editor> {
 
   @override
   Widget build(BuildContext context) {
-//    getCodeSpan.start('for i in range(0, 10): \n   pass', 0);
     List<String> code = 'for i in range(0, 10): \n   pass'.split('\n');
     return Container(
       child: Row(

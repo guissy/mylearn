@@ -24,21 +24,21 @@ void main() {
       var line1 = "foo(a, b):";
       var getCodeSpan = GetCodeSpan(line1);
       var expected = ["foo", "a, b):"];
-      var actual = getCodeSpan.splitBracketLeft(line1);
+      var actual = getCodeSpan.splitBracketLeft(line1, 0);
       expect(actual, expected);
     });
     test("分割: 右括号", () {
       var line1 = "foo(a, b):";
       var getCodeSpan = GetCodeSpan(line1);
       var expected = ["foo(a, b", ":"];
-      var actual = getCodeSpan.splitBracketRight(line1);
+      var actual = getCodeSpan.splitBracketRight(line1, 0);
       expect(actual, expected);
     });
     test("分割: 逗号", () {
       var line1 = "a, b, c";
       var getCodeSpan = GetCodeSpan(line1);
       var expected = ["a", "b", "c"];
-      var actual = getCodeSpan.splitComma(line1);
+      var actual = getCodeSpan.splitComma(line1, 0);
       expect(actual, expected);
     });
   });
