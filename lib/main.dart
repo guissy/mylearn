@@ -50,7 +50,9 @@ class MyHomePage extends StatelessWidget {
                     backgroundColor: Color(0xffffd236),
                     heroTag: null,
                     elevation: 1.0,
-                    onPressed: () {},
+                    onPressed: () {
+                      Provider.of<Store>(context, listen: false).startRunning();
+                    },
                     label: Text('运行', style: TextStyle(fontSize: 24.0)),
                   )
                 : Container()));

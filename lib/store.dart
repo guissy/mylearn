@@ -13,6 +13,7 @@ class Store with ChangeNotifier {
   String blockSvg = '';
   List<String> blockSvgList = [];
   EditMode mode = EditMode.block;
+  bool codeRunning = false;
 
   void increment() {
     value += 1;
@@ -48,5 +49,13 @@ class Store with ChangeNotifier {
   }
   bool isCodeMode() {
     return this.mode == EditMode.code;
+  }
+  void startRunning() {
+    this.codeRunning = true;
+    notifyListeners();
+  }
+  void stopRunning() {
+    this.codeRunning = false;
+    notifyListeners();
   }
 }
