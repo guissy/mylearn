@@ -18,7 +18,24 @@ class _StageState extends State<Stage> {
         child: Consumer<Store>(
             builder: (context, store, child) => ListView.builder(
                 itemCount: store.blockSvgList.length,
-                itemBuilder: (_, index) =>
-                    SvgPicture.asset(store.blockSvgList[index]))));
+                itemBuilder: (_, index) => Draggable<String>(
+                      onDragCompleted: () {
+                        // 在拖动结束后删除数据
+                        setState(() {
+//        _items.removeAt(index);
+                        });
+                      },
+//                      feedbackOffset:
+//                          Offset(MediaQuery.of(context).size.width / 2, 0),
+                      feedback: Material(
+                        child: Padding(
+                          padding: EdgeInsets.only(left: MediaQuery.of(context).size.width/2 - 200.0),
+                          child: SvgPicture.asset(store.blockSvgList[index]),
+                        ),
+                      ),
+                      // 当前组件的数据
+//    data: _items[index],
+                      child: SvgPicture.asset(store.blockSvgList[index]),
+                    ))));
   }
 }
