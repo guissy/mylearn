@@ -33,7 +33,7 @@ class BlockList extends StatelessWidget {
               onPressed: () {
                 Provider.of<Store>(context, listen: false).hideBlockBool();
                 Provider.of<Store>(context, listen: false)
-                    .setBlockSvg('assets/node/' + dirs[_index] + '/' + nodes[_index][i]);
+                    .addBlockSvg('assets/node/' + dirs[_index] + '/' + nodes[_index][i]);
               },
               child: Container(
                 child: SvgPicture.asset('assets/node/' + dirs[_index] + '/' + nodes[_index][i]),

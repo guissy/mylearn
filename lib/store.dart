@@ -35,9 +35,14 @@ class Store with ChangeNotifier {
     this.selectedBlockBool = index;
     notifyListeners();
   }
-  void setBlockSvg(String url) {
+  void addBlockSvg(String url) {
     this.blockSvg = url;
     this.blockSvgList.add(url);
+    print(url);
+    notifyListeners();
+  }
+  void removeBlockSvg(String url) {
+    this.blockSvgList.remove(url);
     print(url);
     notifyListeners();
   }

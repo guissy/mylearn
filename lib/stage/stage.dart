@@ -10,6 +10,14 @@ class Stage extends StatefulWidget {
 }
 
 class _StageState extends State<Stage> {
+
+  String _draging = "";
+
+  @override
+  void initState() {
+    super.initState();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -19,15 +27,31 @@ class _StageState extends State<Stage> {
             builder: (context, store, child) => ListView.builder(
                 itemCount: store.blockSvgList.length,
                 itemBuilder: (_, index) => Draggable<String>(
-                      onDragCompleted: () {
-                        // 在拖动结束后删除数据
+                      onDragStarted: () {
+                        print('🌹🌹🌹');
                         setState(() {
-//        _items.removeAt(index);
+                          this._draging = store.blockSvgList[index];
+                        });
+                        store.removeBlockSvg(this._draging);
+                      },
+                      onDraggableCanceled: (a, b) {
+                        store.addBlockSvg(this._draging);
+                      },
+                      onDragEnd: (e) {
+                        print(e);
+                        print('🌸🌸🌸🌺🌺🌺');
+                      },
+                      onDragCompleted: () {
+                        print('🌸🌸🌸');
+                        store.addBlockSvg(this._draging);
+                        setState(() {
+                          this._draging = '';
                         });
                       },
 //                      feedbackOffset:
 //                          Offset(MediaQuery.of(context).size.width / 2, 0),
                       feedback: Material(
+                        color: Colors.transparent,
                         child: Padding(
                           padding: EdgeInsets.only(left: MediaQuery.of(context).size.width/2 - 200.0),
                           child: SvgPicture.asset(store.blockSvgList[index]),
