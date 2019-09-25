@@ -10,12 +10,22 @@ class Stage extends StatefulWidget {
 }
 
 class _StageState extends State<Stage> {
-
   String _draging = "";
+  Map<String, List<double>> _pos = new Map();
 
   @override
   void initState() {
     super.initState();
+  }
+
+  getOffset(String svg) {
+    if (this._pos.containsKey(svg)) {
+      var left = this._pos[svg][0];
+      var top = this._pos[svg][1];
+      return EdgeInsets.only(left: left, top: top);
+    } else {
+      return EdgeInsets.zero;
+    }
   }
 
   @override
@@ -34,7 +44,13 @@ class _StageState extends State<Stage> {
                         });
                         store.removeBlockSvg(this._draging);
                       },
-                      onDraggableCanceled: (a, b) {
+                      onDraggableCanceled: (a, offset) {
+//                        offset.dx, offset.dy
+                        !_pos.containsKey(this._draging)
+                            ? _pos.putIfAbsent(
+                                this._draging, () => [offset.dx, offset.dy])
+                            : _pos.update(
+                                this._draging, (_) => [offset.dx, offset.dy]);
                         store.addBlockSvg(this._draging);
                       },
                       onDragEnd: (e) {
@@ -53,13 +69,18 @@ class _StageState extends State<Stage> {
                       feedback: Material(
                         color: Colors.transparent,
                         child: Padding(
-                          padding: EdgeInsets.only(left: MediaQuery.of(context).size.width/2 - 200.0),
+                          padding: EdgeInsets.only(
+                              left: MediaQuery.of(context).size.width / 2 -
+                                  200.0),
                           child: SvgPicture.asset(store.blockSvgList[index]),
                         ),
                       ),
                       // 当前组件的数据
 //    data: _items[index],
-                      child: SvgPicture.asset(store.blockSvgList[index]),
+                      child: Container(
+                        margin: this.getOffset(store.blockSvgList[index]),
+                        child: SvgPicture.asset(store.blockSvgList[index]),
+                      ),
                     ))));
   }
 }
