@@ -28,7 +28,7 @@ class DragItem extends StatefulWidget {
 
 class _DragItemState extends State<DragItem> {
   Offset pos = new Offset(0.0, 0.0);
-
+  bool _isDraging = false;
 
   @override
   void initState() {
@@ -47,11 +47,9 @@ class _DragItemState extends State<DragItem> {
               top: pos.dy,
               child: Draggable<String>(
                 onDragStarted: () {
-//                  print('🌹🌹🌹');
-//                  setState(() {
-//                    this._draging = item;
-//                  });
-//                  store.removeBlockSvg(this._draging);
+                  setState(() {
+                    this._isDraging = true;
+                  });
                 },
                 onDraggableCanceled: (a, offset) {
                   //坐标是根据全屏算的，需要计算appbar和statusBar的高度
@@ -78,12 +76,8 @@ class _DragItemState extends State<DragItem> {
                         appBarHeight -
                         statusBarHeight;
                   }
-
-//                  pos = new Offset(dx, dy);
                   setState(() {
-                    print(offset);
-                    print(dx);
-                    print(dy);
+                    this._isDraging = false;
                     this.pos = new Offset(dx, dy);
                   });
 //                  !_pos.containsKey(this._draging)
@@ -97,9 +91,7 @@ class _DragItemState extends State<DragItem> {
                   color: Colors.transparent,
                   child: SvgPicture.asset(widget.svg.itemName),
                 ),
-                // 当前组件的数据
-//    data: _items[index],
-                child: SvgPicture.asset(widget.svg.itemName),
+                child: _isDraging == false ? SvgPicture.asset(widget.svg.itemName) : Container(),
               ),
             ));
   }
