@@ -45,11 +45,13 @@ class _DragItemState extends State<DragItem> {
         builder: (context, store, child) => Positioned(
               left: pos.dx,
               top: pos.dy,
-              child: Draggable<String>(
+              child: Draggable<DragModel>(
+                data: widget.svg,
                 onDragStarted: () {
                   setState(() {
                     this._isDraging = true;
                   });
+                  store.setDraging(true);
                 },
                 onDraggableCanceled: (a, offset) {
                   //坐标是根据全屏算的，需要计算appbar和statusBar的高度
@@ -80,12 +82,7 @@ class _DragItemState extends State<DragItem> {
                     this._isDraging = false;
                     this.pos = new Offset(dx, dy);
                   });
-//                  !_pos.containsKey(this._draging)
-//                      ? _pos.putIfAbsent(
-//                          this._draging, () => [offset.dx, offset.dy])
-//                      : _pos.update(
-//                          this._draging, (_) => [offset.dx, offset.dy]);
-//                  store.addBlockSvg(this._draging);
+                  store.setDraging(true);
                 },
                 feedback: Material(
                   color: Colors.transparent,

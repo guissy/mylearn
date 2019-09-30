@@ -14,6 +14,7 @@ class Store with ChangeNotifier {
   List<String> blockSvgList = [];
   EditMode mode = EditMode.block;
   bool codeRunning = false;
+  bool isDraging = false;
 
   void increment() {
     value += 1;
@@ -61,6 +62,10 @@ class Store with ChangeNotifier {
   }
   void stopRunning() {
     this.codeRunning = false;
+    notifyListeners();
+  }
+  void setDraging(bool doing) {
+    this.isDraging = doing;
     notifyListeners();
   }
 }

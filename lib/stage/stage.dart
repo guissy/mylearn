@@ -36,11 +36,11 @@ class _StageState extends State<Stage> {
         decoration: BoxDecoration(color: Color(0xfff8f6f2)),
         child: Consumer<Store>(
             builder: (context, store, child) => Stack(
-                children: List.generate(
+                children: (List.generate(
                     store.blockSvgList.length,
                     (index) => new DragItem(new DragModel(
                         Offset(0.0, (48 * index).toDouble()),
                         store.blockSvgList[index],
-                        Colors.red))).toList())));
+                        Colors.red)) as Widget) as List<Widget>))));
   }
 }
