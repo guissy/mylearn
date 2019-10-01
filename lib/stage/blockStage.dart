@@ -51,7 +51,9 @@ class BlockStage extends StatelessWidget {
                         store.removeBlockSvg(model.itemName);
                         store.setDraging(false);
                       },
-                      onWillAccept: (int data) => false,
+                      onWillAccept: (int data) {
+                        return false;
+                      },
                       builder: (
                           BuildContext context,
                           List<dynamic> accepted,
